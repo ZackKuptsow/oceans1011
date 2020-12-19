@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ocean's 1011</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <div data-page="content" id="display">
+    </div>
+
+    <script type="raw-html/template" id="animation">
+        <h3 id="click">[click anywhere to skip credits]</h3>
+            <div id="fly-in">  
+                <div><span>Coming to a</span>Terminal Near You</div>
+                <div>Ocean's 1011:<span>The CTF</span></div>
+                <div>Starring</div>
+                <div>You<span><i>as </i><strong>The Hacker</strong></span></div>
+                <div>George Clooney<span><i>as </i><strong>Andy, The Mentor Mastermind</strong></span></div>
+                <div>Bernie Mac, Brad Pitt, Elliot Gould, Casey Affleck, Scott Caan, Eddie Jemison, Don Cheadle, Shaobo Qin, Carl Reiner and Matt Damon<span><i>as </i><strong>The Classmates</strong></span></div>
+                <!-- 
+                    Danny's team needs a hacker. If you've found this, then you have passed the first test.
+                    0c34n{welcome_to_the_1011}
+                -->
+            </div>
+        </script>
+    <script type="raw-html/template" id="lobby">
+        <div class="container d-flex align-items-center flex-column mt-5">
+                <h1>Ocean's 1011</h1>
+                <h3>Danny Ocean needs your help hacking a casino. Get the flag from this page to continue.</h3>
+                <div class="contaiiner d-flex align-items-center flex-column">
+                    <input type="text" id="start" placeholder="0c34n{flag_goes_here}">
+                </div>
+            </div>
+        </script>
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>

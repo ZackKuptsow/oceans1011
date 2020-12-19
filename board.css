@@ -1,0 +1,96 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #277714;
+  font-family: 'VT323', monospace;
+}
+
+.container {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #277714;
+  font-size: 64px;
+}
+
+
+/* CARDS - all from CTF Cards pen */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'VT323', monospace;
+  font-weight: 700;
+}
+
+html, body {
+  background-color: #277714;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+} */
+
+.ctf-card {
+  box-shadow: 1px 5px 15px #ccc;
+  width: 40%;
+  height: 50%;
+  border-radius: 10px;
+  padding: 2em;
+  margin: 1em;
+  overflow: hidden;
+  position: relative;
+}
+
+#diamond-card,
+#heart-card {
+  background: linear-gradient(-45deg,
+      #ff0000 50%,
+      rgba(255, 255, 255, 0.5) 50%);
+}
+
+#club-card,
+#spade-card {
+  background: linear-gradient(-45deg,
+      #000000 50%,
+      rgba(255, 255, 255, 0.5) 50%);
+}
+
+.ctf-card input[type="image"] {
+  max-width: 50%;
+  height: auto center;
+  text-align: center;
+}
+
+.card-inner {
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.card-inner p {
+  color: #fff;
+}
+
+.card-inner input[type="text"] {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: #000;
+  border-radius: 10px;
+  padding: 1em 3em;
+  margin: 1em 0 0 0;
+  background: none;
+}

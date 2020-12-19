@@ -1,0 +1,22 @@
+{
+  "name": "oceans1011",
+  "version": "1.0.0",
+  "description": "oceans 11 based ctf",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZackKuptsow/oceans1011.git"
+  },
+  "author": "Zack Kuptsow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZackKuptsow/oceans1011/issues"
+  },
+  "homepage": "https://github.com/ZackKuptsow/oceans1011#readme",
+  "dependencies": {
+    "sqlite3": "^5.0.0"
+  }
+}
